@@ -1,9 +1,14 @@
 # Simple-Peer-to-Peer-File-Sharing
 A simple peer-assisted file sharing application using a UDP-based pull server.
+
 To compile the server: gcc –o server server.c
+
 To run the server: ./server <N> <P> <C> <Port> <Filename> [Debug]
+
 To compile the peer client: gcc –o peer peer.c
+
 To run the peer client: ./peer <ServerIP:Port> [Debug]
+
 Angle brackets indicate mandatory arguments and square brackets indicate optional arguments. 
 Note: Debug argument will be accepted but currently does not do anything.
 
