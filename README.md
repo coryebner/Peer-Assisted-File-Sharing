@@ -3,7 +3,7 @@ A simple peer-assisted file sharing application using a UDP-based pull server.
 
 To compile the server: gcc –o server server.c
 
-To run the server: ./server <N> <P> <C> <Port> <Filename> [Debug]
+To run the server: ./server <N> <P> <C> <Port> <Filename>[Debug]
 
 To compile the peer client: gcc –o peer peer.c
 
